@@ -13,6 +13,14 @@
 
 /* mobile */
 @media (max-width:46.18em) {
+    .hr-body-home {
+        margin: 30px 100px 0px 100px;
+    }
+
+    .welecom-text {
+        margin: 25px 0px;
+    }
+
     #header{
         height: 100px;
     }
@@ -66,7 +74,8 @@
         align-items: flex-end;
         justify-content: end;
         padding: 5px 10px;
-        font-size: 0.7rem;
+        font-size: 1rem;
+        font-weight: 300;
     }
 
     .content-sub-mobile-text-p i {
@@ -74,32 +83,68 @@
         margin-bottom: 1px;
     }
 
-    .body__header-text h1{
+    .body__header-text h1 {
         margin-left: 10px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
     }
+    
     .body__header-text h3 {
-        margin: 0 10px;
+        margin: 0 20px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
-    .body__header{
-        height: 330px;
+    .body__header-content{
+        width: 100%;
+        display: block;
     }
 
-    .body__header-text{
-        height: 330px;
+    .body__header-img {
+        width: 100%;
+    }
+
+    .body__header-text {
+        width: 100%;
+        margin-top: -4px;
     }
 
     .body__content-home {
         display: block;
         padding: 40px 20px;
         height: auto;
+        background: linear-gradient(45deg, #0091ff, #d56060);
+    }
+
+    .body__content-service-row {
+        height: 160px;
+        width: 160px;
+    }
+
+    .body__content-service-section {
+        padding: 0 20px;
     }
 
     .body__content-row {
         width: 90%;
         margin-bottom: 30px;
     }
-    .hr-body-home {
-    margin: 40px 100px 0px 100px;
-}
+
+    .body__content-service-sub {
+        display: flex;
+    }
+
+    .body__content-service {
+        display: none;
+    }
+    
+    .body__content-service-mobile{
+        display: block;
+        background: linear-gradient(45deg, #0091ff, #d56060);
+
+    }
 }
