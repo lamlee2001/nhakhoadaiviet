@@ -32,7 +32,7 @@
 
     .heder__content-logo {
         height: 90px;
-        width: 100px;
+        width: 25%;
         margin-left: 20px;
     }
 
@@ -46,9 +46,22 @@
 
     .header__content-sub-mobile {
         height: 100%;
+        display: block;
+        margin-left: 20px;
+    }
+
+    .content-sub-mobile-text-h4{
+        height: 70%;
+        width: 100%;
         display: flex;
         align-items: center;
-        margin-left: 20px;
+    }
+    .content-sub-mobile-text-p{
+        height: 30%;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-left: 100px;
     }
 
     .body__header-text h1{
