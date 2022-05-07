@@ -43,36 +43,6 @@
         display: none;
     }
 
-    .header__content-mobile {
-        display: block;
-        height: 100%;
-    }
-
-    .content-sub-mobile {
-        height: 70%;
-        display: flex;
-        align-items: flex-end;
-    }
-
-    .font-mobile-header {
-        font-family: fantasy;
-        margin-right: 10px;
-        font-size: 1.4rem;
-        text-shadow: 0px 3px 2px rgb(0 0 0 / 25%);
-    }
-
-    .font-mobile-sub-header {
-        font-size: 0.7rem;
-        height: 30%;
-        display: flex;
-        align-items: flex-end;
-        margin-left: 180px;
-    }
-
-    .font-mobile-sub-header h4, i {
-        margin: 5px 3px;
-    }
-
     .body__header-text h1{
         margin-left: 10px;
     }

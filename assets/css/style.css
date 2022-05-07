@@ -87,10 +87,6 @@
     border-bottom: 2px solid #000;
 }
 
-.header__content-mobile {
-    display: none;
-}
-
 .welecom-text{
     display: flex;
     justify-content: center;
