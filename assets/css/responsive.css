@@ -46,22 +46,31 @@
 
     .header__content-sub-mobile {
         height: 100%;
+        width: 75%;
         display: block;
-        margin-left: 20px;
     }
 
     .content-sub-mobile-text-h4{
         height: 70%;
         width: 100%;
         display: flex;
-        align-items: center;
+        font-size: 1.5rem;
+        align-items: flex-end;
+        justify-content: center;
     }
+
+    .mobile-text-h4 {
+        font-family: fantasy;
+    }
+    
     .content-sub-mobile-text-p{
         height: 30%;
         display: flex;
         width: 100%;
-        align-items: center;
-        margin-left: 100px;
+        align-items: flex-end;
+        justify-content: end;
+        padding: 5px 10px;
+        font-size: 0.7rem;
     }
 
     .body__header-text h1{
