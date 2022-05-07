@@ -131,7 +131,7 @@
     height: 200px;
     width: 80%;
     box-shadow: 2px 2px 4px 3px #ccc;
-    background-image: url('/assets/imgs/bgrNhaKhoa3.png');
+    background: url('/assets/imgs/bgrNhaKhoa3.png');
 }
 
 .body__header-text-sub{
