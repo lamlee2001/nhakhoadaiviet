@@ -1,0 +1,250 @@
+#header {
+    width: 100%;
+    height: 142px;    
+    display: flex;
+    justify-content: center;
+}
+
+/* Header Navbar */
+#header__nav {
+    height: 40px;
+    width: 100%;
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    top: 0;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px 2px #60686e;
+    position: fixed;
+}
+
+.header__nav-list {
+    display: flex;
+    padding: 0 32px;
+}
+
+.nav-list-text{
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.header__nav-list-mobile {
+    display: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* Header Content */
+#header__content {
+    width: 100%;
+    height: 100px;
+    background-color: #d0efff;
+    margin-top: 40px;
+    box-shadow: -1px -1px 8px 0px #0a5c86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.heder__content-logo {
+    height: 90px;
+    width: 90px;
+    border: 1px solid #5e5e5e;
+    border-radius: 15px;    
+    box-shadow: 0px 0px 9px -3px #111;
+}
+
+.content-logo-img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+.header__content-sub {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.header__content-sub-ul {
+    display: flex;
+    list-style: none;
+    width: auto;
+    height: 35px;
+}
+
+.header__content-sub-ul li {
+    margin: 0 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header__content-sub-ul li:hover {
+    border-bottom: 2px solid #000;
+}
+
+.header__content-mobile {
+    display: none;
+}
+
+.welecom-text{
+    display: flex;
+    justify-content: center;
+}
+
+.welecom-text{
+    margin-top: 25px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.welecom-text h1 {
+    color: var(--mainColor);
+    text-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
+
+}
+
+/* Body Header*/
+#body {
+    height: 800px;
+    width: 100%;
+}
+
+.hr-body-home{
+    margin: 40px 580px 0px 580px;
+    border-radius: 10px;
+}
+
+
+.body__header {
+    width: 100%;    
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.body__header-text {
+    height: 200px;
+    width: 80%;
+    box-shadow: 2px 2px 4px 3px #ccc;
+    background-image: url('/assets/imgs/bgrNhaKhoa3.png');
+}
+
+.body__header-text-sub{
+    width: 100%;
+}
+
+.body__header-text h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px 30px;
+}
+
+.body__header-text h3{
+    margin: 10px 333px 0px 30px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Body Content */
+.body__content-home {
+    height: 100%;
+    padding: 40px 60px;
+    margin-top: 25px;
+    background-color: #d0efff;
+    display: flex;
+    justify-content: center;
+}
+
+.body__content-row {
+    width: 33.33333%;
+    box-shadow: 1px 1px 12px 1px #333;
+    margin: 0px 20px;
+    background-color: white;  
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.body__content-img {
+    width: 100%;
+    height: 60%;
+}
+
+.content-img-section {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content__section-hr {
+    margin: 20px 50px;
+}
+
+.body__content-text {
+    padding-bottom: 10px;
+}
+
+.body__content-text h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.body__content-text h4{
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* Body Content service */
+.body__content-service {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-service-section {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: #d0efff;
+    
+}
+
+.content-service-row {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.service-section-img {
+    border-radius: 100px;
+}
+
+.service-section-img img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.service-section-text,
+.service-section-img{
+    margin: 15px;
+}
+
+
