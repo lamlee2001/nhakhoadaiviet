@@ -54,15 +54,11 @@
         height: 70%;
         width: 100%;
         display: flex;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        padding-bottom: 10px;
         align-items: flex-end;
         justify-content: center;
     }
-
-    .mobile-text-h4 {
-        font-family: fantasy;
-    }
-    
     .content-sub-mobile-text-p{
         height: 30%;
         display: flex;
