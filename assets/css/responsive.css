@@ -73,6 +73,11 @@
         font-size: 0.7rem;
     }
 
+    .content-sub-mobile-text-p i {
+        margin-right: 5px;
+        margin-bottom: 1px;
+    }
+
     .body__header-text h1{
         margin-left: 10px;
     }
