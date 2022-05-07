@@ -31,12 +31,12 @@
 
     .heder__content-logo {
         height: 90px;
-        width: auto;
+        width: 100px;
         margin-left: 20px;
     }
 
     .content-logo-img {
-        height: 88px;
+        height: 100%;
     }
 
     .header__content-sub {
@@ -56,7 +56,7 @@
 
     .font-mobile-header {
         font-family: fantasy;
-        margin-right: 20px;
+        margin-right: 10px;
         font-size: 1.4rem;
         text-shadow: 0px 3px 2px rgb(0 0 0 / 25%);
     }
